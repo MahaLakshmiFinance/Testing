@@ -176,8 +176,7 @@ enter address and submit
     input text  //*[@id="subcontent"]/div/form/div[5]/div[3]/input  534101
     click element  xpath=//*[@id="subcontent"]/div/form/div[7]/button[1]
     sleep  3s
-    alert should be present  USER ADDED SUCCESSFULLY
-
+    handle alert
 click edit
     click element  //*[@id="content"]/div/div/div[1]/nav/ul/li[2]/a
     sleep  3s

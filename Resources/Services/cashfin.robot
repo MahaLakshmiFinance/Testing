@@ -2,6 +2,11 @@
 
 Library  SeleniumLibrary
 
+*** Variables ***
+
+
+${customer} =  0123456789
+
 *** Keywords ***
 
 
@@ -16,7 +21,7 @@ Giving Wrong Phone Number
     alert should be present
     
 Giving Right Phonenumber
-    input text  xpath=//*[@id="inputFirstName"]  8317681823
+    input text  xpath=//*[@id="inputFirstName"]  ${customer}
     click button  //*[@id="subcontent"]/div[2]/div/form/div[6]/button
     Sleep  3s
     alert should be present
@@ -34,14 +39,14 @@ Giving Only Rateof Interest
     alert should be present
 
 Giving Only Phonenumber And Amount
-    input text  xpath=//*[@id="inputFirstName"]  8317681823
+    input text  xpath=//*[@id="inputFirstName"]  ${customer}
     input text  xpath=//*[@id="inputUsername"]  3000
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[6]/button
     Sleep  3s
     alert should be present
 
 Giving only Phonenumber And Rate Ofinterest
-    input text  xpath=//*[@id="inputFirstName"]  8317681823
+    input text  xpath=//*[@id="inputFirstName"]  ${customer}
     input text  xpath=//*[@id="inputNewPassword"]  1
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[6]/button
     Sleep  3s
@@ -51,7 +56,7 @@ Giving Only Fre
 
 
 Giving All
-    input text  xpath=//*[@id="inputFirstName"]  8317681823
+    input text  xpath=//*[@id="inputFirstName"]  ${customer}
     input text  xpath=//*[@id="inputUsername"]  3000
     input text  xpath=//*[@id="inputNewPassword"]  1
     input text  name=refno  453

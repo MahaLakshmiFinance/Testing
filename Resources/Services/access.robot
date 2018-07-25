@@ -5,6 +5,7 @@ Library  SeleniumLibrary
 *** Keywords ***
 
 Clicking On The Link Accessories
+    sleep 5s
     click link  xpath=//*[@id="link6"]
     sleep  4s
 Button Purchase

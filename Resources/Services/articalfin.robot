@@ -13,7 +13,7 @@ Giving Wrong Coustemerid in Af
     focus  name=ref_no
     click button  xpath=//*[@id="subcontent21"]/div/form/div[11]/button
     Sleep  3s
-    alert should be present  INVALID CUSTOMER
+    alert should be present  INVALID CUSTOMER ID
 Giving Right Coustemerid in Af
 
     input text  name=username  0123456789
@@ -186,7 +186,7 @@ Giving Emi Seheme Button Month And Giving Emis
     input text  xpath=//*[@id="inputConfirmNewPassword"]  65dffdf6
 
     input text  xpath=//*[@id="inputEmail"]  435fgfg
-   input text  xpath=//*[@id="model"]  samsung123
+    input text  xpath=//*[@id="model"]  samsung123
     input text  xpath=//*[@id="a_cost"]  13234
     input text  name=article_refno  334343
     sleep  3s
@@ -205,13 +205,13 @@ Giving Emi Seheme Button Month And Giving Emis
     focus  xpath=//*[@id="inputFirstName"]
     click button  xpath=//*[@id="subcontent21"]/div/form/div[11]/button
 
-    alert should be present  S
+    alert should be present  PURCHASE COMPLETED.
     focus  xpath=//*[@id="inputFirstName"]
 Giving Emi Seheme Button Amount And Installment aumout
     input text  xpath=//*[@id="inputFirstName"]  0123456789
     input text  xpath=//*[@id="inputConfirmNewPassword"]  65dffdf6
     input text  xpath=//*[@id="inputEmail"]  435m4hghg
-   input text  xpath=//*[@id="model"]  samsung123
+    input text  xpath=//*[@id="model"]  samsung123
     input text  xpath=//*[@id="a_cost"]  13234
     input text  name=article_refno  3365543
     input text  xpath=//*[@id="date"]  2018-02-01
@@ -227,7 +227,7 @@ Giving Emi Seheme Button Amount And Installment aumout
     focus  xpath=//*[@id="inputFirstName"]
     click button  xpath=//*[@id="subcontent21"]/div/form/div[11]/button
     Sleep  3s
-    alert should be present  PRODUCT ALREADY FINANCED.
+    alert should be present  PURCHASE COMPLETED.
     focus  xpath=//*[@id="inputFirstName"]
 Giving Emi Seheme Button Month And Giving Emis Given alerdy
     input text  xpath=//*[@id="inputFirstName"]  0123456789

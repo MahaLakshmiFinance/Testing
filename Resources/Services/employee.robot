@@ -112,7 +112,7 @@ Clicking The Expencedetails
     click element  xpath=//*[@id="content"]/div/div/div[1]/nav/ul/li[2]/a
 
 Giving The Emploe Id Wrong
-    input text  name=emp_id  99597238bdfddv
+    input text  name=emp_id  9959454578
     focus  name=cstmr_id
     sleep  5s
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[6]/button

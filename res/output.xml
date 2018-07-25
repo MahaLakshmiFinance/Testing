@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.0.4 (Python 3.7.0 on win32)" generated="20180723 20:10:03.122">
+<robot generator="Robot 3.0.4 (Python 3.7.0 on win32)" generated="20180725 18:55:40.227">
 <suite id="s1" name="Test" source="C:\Users\N~M~S\PyCharm Projects\mlf\Tests\test.robot">
-<test id="s1-t1" name="emp">
+<test id="s1-t1" name="Users Page">
 <kw name="Begin Test" library="common" type="setup">
 <kw name="Open Browser" library="SeleniumLibrary">
 <doc>Opens a new browser instance to the given ``url``.</doc>
@@ -9,29 +9,29 @@
 <arg>${Url}</arg>
 <arg>${Browser}</arg>
 </arguments>
-<msg timestamp="20180723 20:10:04.671" level="INFO">Opening browser 'gc' to base url 'http://localhost/mlf/'.</msg>
-<status status="PASS" starttime="20180723 20:10:04.671" endtime="20180723 20:10:18.272"></status>
+<msg timestamp="20180725 18:55:40.336" level="INFO">Opening browser 'gc' to base url 'http://localhost/mlf/'.</msg>
+<status status="PASS" starttime="20180725 18:55:40.336" endtime="20180725 18:55:43.972"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>3s</arg>
 </arguments>
-<msg timestamp="20180723 20:10:21.273" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20180723 20:10:18.272" endtime="20180723 20:10:21.273"></status>
+<msg timestamp="20180725 18:55:46.973" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20180725 18:55:43.972" endtime="20180725 18:55:46.973"></status>
 </kw>
 <kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` appears on current page.</doc>
 <arguments>
 <arg>//*[@id="homebody"]/div[2]/div/form/div[3]/button</arg>
 </arguments>
-<status status="PASS" starttime="20180723 20:10:21.273" endtime="20180723 20:10:21.289"></status>
+<status status="PASS" starttime="20180725 18:55:46.974" endtime="20180725 18:55:47.007"></status>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20180723 20:10:21.289" endtime="20180723 20:10:22.425"></status>
+<status status="PASS" starttime="20180725 18:55:47.007" endtime="20180725 18:55:48.153"></status>
 </kw>
-<status status="PASS" starttime="20180723 20:10:04.671" endtime="20180723 20:10:22.426"></status>
+<status status="PASS" starttime="20180725 18:55:40.336" endtime="20180725 18:55:48.153"></status>
 </kw>
 <kw name="valid username and password" library="login">
 <kw name="Input Text" library="SeleniumLibrary">
@@ -40,8 +40,8 @@
 <arg>xpath=//*[@id="homebody"]/div[2]/div/form/div[1]/div/input</arg>
 <arg>mlfadmin</arg>
 </arguments>
-<msg timestamp="20180723 20:10:22.427" level="INFO">Typing text 'mlfadmin' into text field 'xpath=//*[@id="homebody"]/div[2]/div/form/div[1]/div/input'.</msg>
-<status status="PASS" starttime="20180723 20:10:22.426" endtime="20180723 20:10:22.637"></status>
+<msg timestamp="20180725 18:55:48.154" level="INFO">Typing text 'mlfadmin' into text field 'xpath=//*[@id="homebody"]/div[2]/div/form/div[1]/div/input'.</msg>
+<status status="PASS" starttime="20180725 18:55:48.154" endtime="20180725 18:55:48.274"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
@@ -49,129 +49,368 @@
 <arg>xpath=//*[@id="homebody"]/div[2]/div/form/div[2]/div/input</arg>
 <arg>mlf@123</arg>
 </arguments>
-<msg timestamp="20180723 20:10:22.637" level="INFO">Typing text 'mlf@123' into text field 'xpath=//*[@id="homebody"]/div[2]/div/form/div[2]/div/input'.</msg>
-<status status="PASS" starttime="20180723 20:10:22.637" endtime="20180723 20:10:22.718"></status>
+<msg timestamp="20180725 18:55:48.275" level="INFO">Typing text 'mlf@123' into text field 'xpath=//*[@id="homebody"]/div[2]/div/form/div[2]/div/input'.</msg>
+<status status="PASS" starttime="20180725 18:55:48.274" endtime="20180725 18:55:48.363"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>xpath=//*[@id="homebody"]/div[2]/div/form/div[3]/button</arg>
 </arguments>
-<msg timestamp="20180723 20:10:22.718" level="INFO">Clicking element 'xpath=//*[@id="homebody"]/div[2]/div/form/div[3]/button'.</msg>
-<status status="PASS" starttime="20180723 20:10:22.718" endtime="20180723 20:10:24.283"></status>
+<msg timestamp="20180725 18:55:48.364" level="INFO">Clicking element 'xpath=//*[@id="homebody"]/div[2]/div/form/div[3]/button'.</msg>
+<status status="PASS" starttime="20180725 18:55:48.363" endtime="20180725 18:55:50.629"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
-<arg>3s</arg>
+<arg>5s</arg>
 </arguments>
-<msg timestamp="20180723 20:10:27.284" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20180723 20:10:24.283" endtime="20180723 20:10:27.284"></status>
+<msg timestamp="20180725 18:55:55.634" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20180725 18:55:50.629" endtime="20180725 18:55:55.634"></status>
 </kw>
 <kw name="Wait Until Page Contains" library="SeleniumLibrary">
 <doc>Waits until ``text`` appears on current page.</doc>
 <arguments>
 <arg>Hello, mlfadmin</arg>
 </arguments>
-<status status="PASS" starttime="20180723 20:10:27.284" endtime="20180723 20:10:27.302"></status>
+<status status="PASS" starttime="20180725 18:55:55.634" endtime="20180725 18:55:55.649"></status>
 </kw>
-<status status="PASS" starttime="20180723 20:10:22.426" endtime="20180723 20:10:27.302"></status>
+<status status="PASS" starttime="20180725 18:55:48.154" endtime="20180725 18:55:55.649"></status>
 </kw>
-<kw name="Add Employe" library="employee">
-<kw name="Click Link" library="SeleniumLibrary">
-<doc>Clicks a link identified by ``locator``.</doc>
+<kw name="Click Users" library="users">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>xpath=//*[@id="link1"]</arg>
 </arguments>
-<msg timestamp="20180723 20:10:27.303" level="INFO">Clicking link 'xpath=//*[@id="link1"]'.</msg>
-<status status="PASS" starttime="20180723 20:10:27.303" endtime="20180723 20:10:27.375"></status>
+<msg timestamp="20180725 18:55:55.649" level="INFO">Clicking element 'xpath=//*[@id="link1"]'.</msg>
+<status status="PASS" starttime="20180725 18:55:55.649" endtime="20180725 18:55:55.707"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20180725 18:55:57.713" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20180725 18:55:55.708" endtime="20180725 18:55:57.713"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` appears on current page.</doc>
+<arguments>
+<arg>//*[@id="subcontent"]/div/form</arg>
+</arguments>
+<status status="PASS" starttime="20180725 18:55:57.713" endtime="20180725 18:55:57.728"></status>
+</kw>
+<status status="PASS" starttime="20180725 18:55:55.649" endtime="20180725 18:55:57.728"></status>
+</kw>
+<kw name="Valid Username Entry" library="users">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="subcontent"]/div/form/div[1]/div[1]/div[1]/label/span</arg>
+</arguments>
+<msg timestamp="20180725 18:55:57.728" level="INFO">Clicking element '//*[@id="subcontent"]/div/form/div[1]/div[1]/div[1]/label/span'.</msg>
+<status status="PASS" starttime="20180725 18:55:57.728" endtime="20180725 18:55:57.771"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="subcontent"]/div/form/div[1]/div[1]/input</arg>
+<arg>012345678901</arg>
+</arguments>
+<msg timestamp="20180725 18:55:57.772" level="INFO">Typing text '012345678901' into text field '//*[@id="subcontent"]/div/form/div[1]/div[1]/input'.</msg>
+<status status="PASS" starttime="20180725 18:55:57.771" endtime="20180725 18:55:57.867"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks button identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="subcontent"]/div/form/div[7]/button[1]</arg>
+</arguments>
+<msg timestamp="20180725 18:55:57.868" level="INFO">Clicking button '//*[@id="subcontent"]/div/form/div[7]/button[1]'.</msg>
+<status status="PASS" starttime="20180725 18:55:57.868" endtime="20180725 18:55:57.954"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>3s</arg>
 </arguments>
-<msg timestamp="20180723 20:10:30.376" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20180723 20:10:27.375" endtime="20180723 20:10:30.376"></status>
+<msg timestamp="20180725 18:56:00.957" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20180725 18:55:57.955" endtime="20180725 18:56:00.957"></status>
+</kw>
+<kw name="Alert Should Be Present" library="SeleniumLibrary">
+<doc>Verifies that an alert is present and, by default, accepts it.</doc>
+<arguments>
+<arg>MAKE SURE ALL FIELDS ARE FILLED.</arg>
+</arguments>
+<status status="PASS" starttime="20180725 18:56:00.957" endtime="20180725 18:56:00.966"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
-<arg>xpath=//*[@id="subcontent"]/div/form/div[1]/div[1]/div[2]/label/span</arg>
+<arg>//*[@id="subcontent"]/div/form/div[1]/div[1]/div[2]/label/span</arg>
 </arguments>
-<msg timestamp="20180723 20:10:30.377" level="INFO">Clicking element 'xpath=//*[@id="subcontent"]/div/form/div[1]/div[1]/div[2]/label/span'.</msg>
-<status status="PASS" starttime="20180723 20:10:30.376" endtime="20180723 20:10:30.440"></status>
+<msg timestamp="20180725 18:56:00.967" level="INFO">Clicking element '//*[@id="subcontent"]/div/form/div[1]/div[1]/div[2]/label/span'.</msg>
+<status status="PASS" starttime="20180725 18:56:00.966" endtime="20180725 18:56:01.042"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
 <arguments>
-<arg>name=username</arg>
-<arg>${employee}</arg>
+<arg>//*[@id="subcontent"]/div/form/div[1]/div[1]/input</arg>
+<arg>0123456789</arg>
 </arguments>
-<msg timestamp="20180723 20:10:30.440" level="INFO">Typing text '1234567890' into text field 'name=username'.</msg>
-<status status="PASS" starttime="20180723 20:10:30.440" endtime="20180723 20:10:30.580"></status>
+<msg timestamp="20180725 18:56:01.042" level="INFO">Typing text '0123456789' into text field '//*[@id="subcontent"]/div/form/div[1]/div[1]/input'.</msg>
+<status status="PASS" starttime="20180725 18:56:01.042" endtime="20180725 18:56:01.100"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks button identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="subcontent"]/div/form/div[7]/button[1]</arg>
+</arguments>
+<msg timestamp="20180725 18:56:01.101" level="INFO">Clicking button '//*[@id="subcontent"]/div/form/div[7]/button[1]'.</msg>
+<status status="PASS" starttime="20180725 18:56:01.101" endtime="20180725 18:56:01.145"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20180725 18:56:04.146" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20180725 18:56:01.145" endtime="20180725 18:56:04.146"></status>
+</kw>
+<kw name="Alert Should Be Present" library="SeleniumLibrary">
+<doc>Verifies that an alert is present and, by default, accepts it.</doc>
+<arguments>
+<arg>MAKE SURE ALL FIELDS ARE FILLED.</arg>
+</arguments>
+<status status="PASS" starttime="20180725 18:56:04.146" endtime="20180725 18:56:04.149"></status>
+</kw>
+<status status="PASS" starttime="20180725 18:55:57.728" endtime="20180725 18:56:04.150"></status>
+</kw>
+<kw name="name entry" library="users">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="subcontent"]/div/form/div[7]/button[1]</arg>
+</arguments>
+<msg timestamp="20180725 18:56:04.151" level="INFO">Clicking element 'xpath=//*[@id="subcontent"]/div/form/div[7]/button[1]'.</msg>
+<status status="PASS" starttime="20180725 18:56:04.151" endtime="20180725 18:56:04.198"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20180725 18:56:07.199" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20180725 18:56:04.198" endtime="20180725 18:56:07.199"></status>
+</kw>
+<kw name="Alert Should Be Present" library="SeleniumLibrary">
+<doc>Verifies that an alert is present and, by default, accepts it.</doc>
+<arguments>
+<arg>MAKE SURE ALL FIELDS ARE FILLED.</arg>
+</arguments>
+<status status="PASS" starttime="20180725 18:56:07.200" endtime="20180725 18:56:07.209"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="subcontent"]/div/form/div[2]/div[1]/input</arg>
+<arg>f35d4f6ds65</arg>
+</arguments>
+<msg timestamp="20180725 18:56:07.210" level="INFO">Typing text 'f35d4f6ds65' into text field '//*[@id="subcontent"]/div/form/div[2]/div[1]/input'.</msg>
+<status status="PASS" starttime="20180725 18:56:07.209" endtime="20180725 18:56:07.310"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
-<arg>xpath=//*[@id="rle_type"]/div[1]/label/span</arg>
+<arg>//*[@id="subcontent"]/div/form/div[7]/button[1]</arg>
 </arguments>
-<msg timestamp="20180723 20:10:30.580" level="INFO">Clicking element 'xpath=//*[@id="rle_type"]/div[1]/label/span'.</msg>
-<status status="PASS" starttime="20180723 20:10:30.580" endtime="20180723 20:10:30.642"></status>
+<msg timestamp="20180725 18:56:07.310" level="INFO">Clicking element '//*[@id="subcontent"]/div/form/div[7]/button[1]'.</msg>
+<status status="PASS" starttime="20180725 18:56:07.310" endtime="20180725 18:56:07.354"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20180725 18:56:10.356" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20180725 18:56:07.354" endtime="20180725 18:56:10.356"></status>
+</kw>
+<kw name="Alert Should Be Present" library="SeleniumLibrary">
+<doc>Verifies that an alert is present and, by default, accepts it.</doc>
+<arguments>
+<arg>INCORRECT INPUT.</arg>
+</arguments>
+<status status="PASS" starttime="20180725 18:56:10.357" endtime="20180725 18:56:10.365"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
 <arguments>
-<arg>name=fname</arg>
-<arg>fdsgf</arg>
+<arg>//*[@id="subcontent"]/div/form/div[2]/div[2]/input</arg>
+<arg>g645dfg564d</arg>
 </arguments>
-<msg timestamp="20180723 20:10:30.643" level="INFO">Typing text 'fdsgf' into text field 'name=fname'.</msg>
-<status status="PASS" starttime="20180723 20:10:30.643" endtime="20180723 20:10:30.702"></status>
+<msg timestamp="20180725 18:56:10.367" level="INFO">Typing text 'g645dfg564d' into text field '//*[@id="subcontent"]/div/form/div[2]/div[2]/input'.</msg>
+<status status="PASS" starttime="20180725 18:56:10.366" endtime="20180725 18:56:10.468"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="subcontent"]/div/form/div[7]/button[1]</arg>
+</arguments>
+<msg timestamp="20180725 18:56:10.468" level="INFO">Clicking element 'xpath=//*[@id="subcontent"]/div/form/div[7]/button[1]'.</msg>
+<status status="PASS" starttime="20180725 18:56:10.468" endtime="20180725 18:56:10.510"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20180725 18:56:13.512" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20180725 18:56:10.510" endtime="20180725 18:56:13.512"></status>
+</kw>
+<kw name="Alert Should Be Present" library="SeleniumLibrary">
+<doc>Verifies that an alert is present and, by default, accepts it.</doc>
+<arguments>
+<arg>INCORRECT INPUT.</arg>
+</arguments>
+<status status="PASS" starttime="20180725 18:56:13.512" endtime="20180725 18:56:13.518"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
 <arguments>
-<arg>name=lname</arg>
-<arg>rgfhg</arg>
+<arg>//*[@id="subcontent"]/div/form/div[2]/div[2]/input</arg>
+<arg>Last</arg>
 </arguments>
-<msg timestamp="20180723 20:10:30.702" level="INFO">Typing text 'rgfhg' into text field 'name=lname'.</msg>
-<status status="PASS" starttime="20180723 20:10:30.702" endtime="20180723 20:10:30.773"></status>
+<msg timestamp="20180725 18:56:13.518" level="INFO">Typing text 'Last' into text field '//*[@id="subcontent"]/div/form/div[2]/div[2]/input'.</msg>
+<status status="PASS" starttime="20180725 18:56:13.518" endtime="20180725 18:56:13.571"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
 <arguments>
-<arg>name=cntact_num</arg>
-<arg>${employee}</arg>
+<arg>//*[@id="subcontent"]/div/form/div[2]/div[1]/input</arg>
+<arg>First</arg>
 </arguments>
-<msg timestamp="20180723 20:10:30.773" level="INFO">Typing text '1234567890' into text field 'name=cntact_num'.</msg>
-<status status="PASS" starttime="20180723 20:10:30.773" endtime="20180723 20:10:30.851"></status>
+<msg timestamp="20180725 18:56:13.572" level="INFO">Typing text 'First' into text field '//*[@id="subcontent"]/div/form/div[2]/div[1]/input'.</msg>
+<status status="PASS" starttime="20180725 18:56:13.572" endtime="20180725 18:56:13.620"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="subcontent"]/div/form/div[7]/button[1]</arg>
+</arguments>
+<msg timestamp="20180725 18:56:13.620" level="INFO">Clicking element 'xpath=//*[@id="subcontent"]/div/form/div[7]/button[1]'.</msg>
+<status status="PASS" starttime="20180725 18:56:13.620" endtime="20180725 18:56:13.666"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20180725 18:56:16.668" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20180725 18:56:13.667" endtime="20180725 18:56:16.668"></status>
+</kw>
+<kw name="Alert Should Be Present" library="SeleniumLibrary">
+<doc>Verifies that an alert is present and, by default, accepts it.</doc>
+<arguments>
+<arg>MAKE SURE ALL FIELDS ARE FILLED.</arg>
+</arguments>
+<status status="PASS" starttime="20180725 18:56:16.668" endtime="20180725 18:56:16.674"></status>
+</kw>
+<status status="PASS" starttime="20180725 18:56:04.150" endtime="20180725 18:56:16.674"></status>
+</kw>
+<kw name="valid contact nums" library="users">
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="subcontent"]/div/form/div[3]/div[1]/input</arg>
+<arg>1234567890</arg>
+</arguments>
+<msg timestamp="20180725 18:56:16.676" level="INFO">Typing text '1234567890' into text field '//*[@id="subcontent"]/div/form/div[3]/div[1]/input'.</msg>
+<status status="PASS" starttime="20180725 18:56:16.676" endtime="20180725 18:56:16.772"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
 <arguments>
-<arg>name=dno</arg>
-<arg>454-564654-54</arg>
+<arg>//*[@id="subcontent"]/div/form/div[3]/div[2]/input</arg>
+<arg>1234567891</arg>
 </arguments>
-<msg timestamp="20180723 20:10:30.851" level="INFO">Typing text '454-564654-54' into text field 'name=dno'.</msg>
-<status status="PASS" starttime="20180723 20:10:30.851" endtime="20180723 20:10:30.941"></status>
+<msg timestamp="20180725 18:56:16.772" level="INFO">Typing text '1234567891' into text field '//*[@id="subcontent"]/div/form/div[3]/div[2]/input'.</msg>
+<status status="PASS" starttime="20180725 18:56:16.772" endtime="20180725 18:56:16.857"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="subcontent"]/div/form/div[7]/button[1]</arg>
+</arguments>
+<msg timestamp="20180725 18:56:16.858" level="INFO">Clicking element 'xpath=//*[@id="subcontent"]/div/form/div[7]/button[1]'.</msg>
+<status status="PASS" starttime="20180725 18:56:16.857" endtime="20180725 18:56:16.888"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20180725 18:56:19.889" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20180725 18:56:16.888" endtime="20180725 18:56:19.889"></status>
+</kw>
+<kw name="Alert Should Be Present" library="SeleniumLibrary">
+<doc>Verifies that an alert is present and, by default, accepts it.</doc>
+<arguments>
+<arg>MAKE SURE ALL FIELDS ARE FILLED.</arg>
+</arguments>
+<status status="PASS" starttime="20180725 18:56:19.890" endtime="20180725 18:56:19.898"></status>
+</kw>
+<status status="PASS" starttime="20180725 18:56:16.675" endtime="20180725 18:56:19.899"></status>
+</kw>
+<kw name="enter address and submit" library="users">
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="subcontent"]/div/form/div[4]/div[1]/input</arg>
+<arg>2-13-7/1</arg>
+</arguments>
+<msg timestamp="20180725 18:56:19.902" level="INFO">Typing text '2-13-7/1' into text field '//*[@id="subcontent"]/div/form/div[4]/div[1]/input'.</msg>
+<status status="PASS" starttime="20180725 18:56:19.901" endtime="20180725 18:56:19.996"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="subcontent"]/div/form/div[7]/button[1]</arg>
+</arguments>
+<msg timestamp="20180725 18:56:19.997" level="INFO">Clicking element 'xpath=//*[@id="subcontent"]/div/form/div[7]/button[1]'.</msg>
+<status status="PASS" starttime="20180725 18:56:19.997" endtime="20180725 18:56:20.029"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20180725 18:56:23.030" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20180725 18:56:20.029" endtime="20180725 18:56:23.030"></status>
+</kw>
+<kw name="Alert Should Be Present" library="SeleniumLibrary">
+<doc>Verifies that an alert is present and, by default, accepts it.</doc>
+<arguments>
+<arg>MAKE SURE ALL FIELDS ARE FILLED.</arg>
+</arguments>
+<status status="PASS" starttime="20180725 18:56:23.031" endtime="20180725 18:56:23.039"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
 <arguments>
-<arg>name=street</arg>
-<arg>fdhgfhgfh</arg>
+<arg>//*[@id="subcontent"]/div/form/div[4]/div[2]/input</arg>
+<arg>abcd</arg>
 </arguments>
-<msg timestamp="20180723 20:10:30.942" level="INFO">Typing text 'fdhgfhgfh' into text field 'name=street'.</msg>
-<status status="PASS" starttime="20180723 20:10:30.941" endtime="20180723 20:10:31.016"></status>
+<msg timestamp="20180725 18:56:23.041" level="INFO">Typing text 'abcd' into text field '//*[@id="subcontent"]/div/form/div[4]/div[2]/input'.</msg>
+<status status="PASS" starttime="20180725 18:56:23.040" endtime="20180725 18:56:23.124"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
 <arguments>
-<arg>name=locality</arg>
-<arg>yfdgvfcdfshvkj</arg>
+<arg>//*[@id="subcontent"]/div/form/div[4]/div[3]/input</arg>
+<arg>efgh</arg>
 </arguments>
-<msg timestamp="20180723 20:10:31.016" level="INFO">Typing text 'yfdgvfcdfshvkj' into text field 'name=locality'.</msg>
-<status status="PASS" starttime="20180723 20:10:31.016" endtime="20180723 20:10:31.102"></status>
+<msg timestamp="20180725 18:56:23.124" level="INFO">Typing text 'efgh' into text field '//*[@id="subcontent"]/div/form/div[4]/div[3]/input'.</msg>
+<status status="PASS" starttime="20180725 18:56:23.124" endtime="20180725 18:56:23.189"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
@@ -179,262 +418,83 @@
 <arg>//*[@id="subcontent"]/div/form/div[5]/div[1]/input</arg>
 <arg>ijkl</arg>
 </arguments>
-<msg timestamp="20180723 20:10:31.102" level="INFO">Typing text 'ijkl' into text field '//*[@id="subcontent"]/div/form/div[5]/div[1]/input'.</msg>
-<status status="PASS" starttime="20180723 20:10:31.102" endtime="20180723 20:10:31.166"></status>
+<msg timestamp="20180725 18:56:23.189" level="INFO">Typing text 'ijkl' into text field '//*[@id="subcontent"]/div/form/div[5]/div[1]/input'.</msg>
+<status status="PASS" starttime="20180725 18:56:23.189" endtime="20180725 18:56:23.251"></status>
 </kw>
-<kw name="Input Text" library="SeleniumLibrary">
-<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
 <arguments>
-<arg>name=pincode</arg>
-<arg>531747</arg>
+<arg>xpath=//*[@id="subcontent"]/div/form/div[7]/button[1]</arg>
 </arguments>
-<msg timestamp="20180723 20:10:31.166" level="INFO">Typing text '531747' into text field 'name=pincode'.</msg>
-<status status="PASS" starttime="20180723 20:10:31.166" endtime="20180723 20:10:31.233"></status>
-</kw>
-<kw name="Click Button" library="SeleniumLibrary">
-<doc>Clicks button identified by ``locator``.</doc>
-<arguments>
-<arg>//*[@id="subcontent"]/div/form/div[7]/button[1]</arg>
-</arguments>
-<msg timestamp="20180723 20:10:31.233" level="INFO">Clicking button '//*[@id="subcontent"]/div/form/div[7]/button[1]'.</msg>
-<status status="PASS" starttime="20180723 20:10:31.233" endtime="20180723 20:10:31.487"></status>
+<msg timestamp="20180725 18:56:23.251" level="INFO">Clicking element 'xpath=//*[@id="subcontent"]/div/form/div[7]/button[1]'.</msg>
+<status status="PASS" starttime="20180725 18:56:23.251" endtime="20180725 18:56:23.285"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
-<arg>5s</arg>
+<arg>3s</arg>
 </arguments>
-<msg timestamp="20180723 20:10:36.488" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20180723 20:10:31.487" endtime="20180723 20:10:36.488"></status>
-</kw>
-<kw name="Alert Should Be Present" library="SeleniumLibrary">
-<doc>Verifies that an alert is present and, by default, accepts it.</doc>
-<status status="PASS" starttime="20180723 20:10:36.488" endtime="20180723 20:10:36.506"></status>
-</kw>
-<status status="PASS" starttime="20180723 20:10:27.302" endtime="20180723 20:10:36.506"></status>
-</kw>
-<kw name="rffda" library="employee">
-<kw name="Click Link" library="SeleniumLibrary">
-<doc>Clicks a link identified by ``locator``.</doc>
-<arguments>
-<arg>xpath=//*[@id="link5"]</arg>
-</arguments>
-<msg timestamp="20180723 20:10:36.508" level="INFO">Clicking link 'xpath=//*[@id="link5"]'.</msg>
-<status status="PASS" starttime="20180723 20:10:36.508" endtime="20180723 20:10:36.568"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>4s</arg>
-</arguments>
-<msg timestamp="20180723 20:10:40.569" level="INFO">Slept 4 seconds</msg>
-<status status="PASS" starttime="20180723 20:10:36.568" endtime="20180723 20:10:40.569"></status>
-</kw>
-<status status="PASS" starttime="20180723 20:10:36.507" endtime="20180723 20:10:40.570"></status>
-</kw>
-<kw name="Giving Employ Id Wrong" library="employee">
-<kw name="Input Text" library="SeleniumLibrary">
-<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
-<arguments>
-<arg>name=emp_id</arg>
-<arg>9959723815</arg>
-</arguments>
-<msg timestamp="20180723 20:10:40.572" level="INFO">Typing text '9959723815' into text field 'name=emp_id'.</msg>
-<status status="PASS" starttime="20180723 20:10:40.572" endtime="20180723 20:10:40.677"></status>
-</kw>
-<kw name="Focus" library="SeleniumLibrary">
-<doc>Deprecated. Use `Set Focus To Element` instead.</doc>
-<arguments>
-<arg>xpath=//*[@id="subcontent"]/div[2]/div/form/div[3]/div[1]/select</arg>
-</arguments>
-<status status="PASS" starttime="20180723 20:10:40.677" endtime="20180723 20:10:40.699"></status>
-</kw>
-<kw name="Click Button" library="SeleniumLibrary">
-<doc>Clicks button identified by ``locator``.</doc>
-<arguments>
-<arg>xpath=//*[@id="subcontent"]/div[2]/div/form/div[5]/button</arg>
-</arguments>
-<msg timestamp="20180723 20:10:40.699" level="INFO">Clicking button 'xpath=//*[@id="subcontent"]/div[2]/div/form/div[5]/button'.</msg>
-<status status="PASS" starttime="20180723 20:10:40.699" endtime="20180723 20:10:40.780"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>4s</arg>
-</arguments>
-<msg timestamp="20180723 20:10:44.780" level="INFO">Slept 4 seconds</msg>
-<status status="PASS" starttime="20180723 20:10:40.780" endtime="20180723 20:10:44.780"></status>
+<msg timestamp="20180725 18:56:26.287" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20180725 18:56:23.285" endtime="20180725 18:56:26.287"></status>
 </kw>
 <kw name="Alert Should Be Present" library="SeleniumLibrary">
 <doc>Verifies that an alert is present and, by default, accepts it.</doc>
 <arguments>
-<arg>INVALID EMPLOYEE ID</arg>
+<arg>MAKE SURE ALL FIELDS ARE FILLED.</arg>
 </arguments>
-<status status="PASS" starttime="20180723 20:10:44.781" endtime="20180723 20:10:44.790"></status>
+<status status="PASS" starttime="20180725 18:56:26.287" endtime="20180725 18:56:26.291"></status>
 </kw>
-<status status="PASS" starttime="20180723 20:10:40.571" endtime="20180723 20:10:44.790"></status>
-</kw>
-<kw name="Giving Employ Id Wrong With Words" library="employee">
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
 <arguments>
-<arg>name=emp_id</arg>
-<arg>99597238ewe5</arg>
+<arg>//*[@id="subcontent"]/div/form/div[5]/div[3]/input</arg>
+<arg>534101</arg>
 </arguments>
-<msg timestamp="20180723 20:10:44.795" level="INFO">Typing text '99597238ewe5' into text field 'name=emp_id'.</msg>
-<status status="PASS" starttime="20180723 20:10:44.793" endtime="20180723 20:10:44.878"></status>
+<msg timestamp="20180725 18:56:26.291" level="INFO">Typing text '534101' into text field '//*[@id="subcontent"]/div/form/div[5]/div[3]/input'.</msg>
+<status status="PASS" starttime="20180725 18:56:26.291" endtime="20180725 18:56:26.378"></status>
 </kw>
-<kw name="Focus" library="SeleniumLibrary">
-<doc>Deprecated. Use `Set Focus To Element` instead.</doc>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
 <arguments>
-<arg>name=loc</arg>
+<arg>xpath=//*[@id="subcontent"]/div/form/div[7]/button[1]</arg>
 </arguments>
-<status status="PASS" starttime="20180723 20:10:44.878" endtime="20180723 20:10:44.895"></status>
-</kw>
-<kw name="Click Button" library="SeleniumLibrary">
-<doc>Clicks button identified by ``locator``.</doc>
-<arguments>
-<arg>xpath=//*[@id="subcontent"]/div[2]/div/form/div[5]/button</arg>
-</arguments>
-<msg timestamp="20180723 20:10:44.896" level="INFO">Clicking button 'xpath=//*[@id="subcontent"]/div[2]/div/form/div[5]/button'.</msg>
-<status status="PASS" starttime="20180723 20:10:44.895" endtime="20180723 20:10:44.954"></status>
+<msg timestamp="20180725 18:56:26.378" level="INFO">Clicking element 'xpath=//*[@id="subcontent"]/div/form/div[7]/button[1]'.</msg>
+<status status="PASS" starttime="20180725 18:56:26.378" endtime="20180725 18:56:26.783"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
-<arg>5s</arg>
+<arg>3s</arg>
 </arguments>
-<msg timestamp="20180723 20:10:49.955" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20180723 20:10:44.954" endtime="20180723 20:10:49.955"></status>
+<msg timestamp="20180725 18:56:29.785" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20180725 18:56:26.783" endtime="20180725 18:56:29.785"></status>
 </kw>
-<kw name="Alert Should Be Present" library="SeleniumLibrary">
-<doc>Verifies that an alert is present and, by default, accepts it.</doc>
-<arguments>
-<arg>INVALID EMPLOYEE ID</arg>
-</arguments>
-<status status="PASS" starttime="20180723 20:10:49.955" endtime="20180723 20:10:49.960"></status>
+<kw name="Handle Alert" library="SeleniumLibrary">
+<doc>Handles the current alert and returns its message.</doc>
+<status status="PASS" starttime="20180725 18:56:29.786" endtime="20180725 18:56:29.795"></status>
 </kw>
-<status status="PASS" starttime="20180723 20:10:44.791" endtime="20180723 20:10:49.960"></status>
-</kw>
-<kw name="Giving Employ Id Right" library="employee">
-<kw name="Input Text" library="SeleniumLibrary">
-<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
-<arguments>
-<arg>name=emp_id</arg>
-<arg>${employee}</arg>
-</arguments>
-<msg timestamp="20180723 20:10:49.964" level="INFO">Typing text '1234567890' into text field 'name=emp_id'.</msg>
-<status status="PASS" starttime="20180723 20:10:49.963" endtime="20180723 20:10:50.034"></status>
-</kw>
-<kw name="Focus" library="SeleniumLibrary">
-<doc>Deprecated. Use `Set Focus To Element` instead.</doc>
-<arguments>
-<arg>name=loc</arg>
-</arguments>
-<status status="PASS" starttime="20180723 20:10:50.035" endtime="20180723 20:10:50.050"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>5s</arg>
-</arguments>
-<msg timestamp="20180723 20:10:55.051" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20180723 20:10:50.050" endtime="20180723 20:10:55.051"></status>
-</kw>
-<kw name="Click Button" library="SeleniumLibrary">
-<doc>Clicks button identified by ``locator``.</doc>
-<arguments>
-<arg>xpath=//*[@id="subcontent"]/div[2]/div/form/div[5]/button</arg>
-</arguments>
-<msg timestamp="20180723 20:10:55.052" level="INFO">Clicking button 'xpath=//*[@id="subcontent"]/div[2]/div/form/div[5]/button'.</msg>
-<status status="PASS" starttime="20180723 20:10:55.051" endtime="20180723 20:10:55.104"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>8s</arg>
-</arguments>
-<msg timestamp="20180723 20:11:03.106" level="INFO">Slept 8 seconds</msg>
-<status status="PASS" starttime="20180723 20:10:55.104" endtime="20180723 20:11:03.106"></status>
-</kw>
-<kw name="Alert Should Be Present" library="SeleniumLibrary">
-<doc>Verifies that an alert is present and, by default, accepts it.</doc>
-<arguments>
-<arg>PLEASE SELECT THE LOCATION</arg>
-</arguments>
-<status status="PASS" starttime="20180723 20:11:03.106" endtime="20180723 20:11:03.111"></status>
-</kw>
-<status status="PASS" starttime="20180723 20:10:49.963" endtime="20180723 20:11:03.111"></status>
-</kw>
-<kw name="Clicking Location Is Palakollu" library="employee">
-<kw name="Input Text" library="SeleniumLibrary">
-<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
-<arguments>
-<arg>name=emp_id</arg>
-<arg>${employee}</arg>
-</arguments>
-<msg timestamp="20180723 20:11:03.113" level="INFO">Typing text '1234567890' into text field 'name=emp_id'.</msg>
-<status status="PASS" starttime="20180723 20:11:03.113" endtime="20180723 20:11:03.187"></status>
-</kw>
-<kw name="Focus" library="SeleniumLibrary">
-<doc>Deprecated. Use `Set Focus To Element` instead.</doc>
-<arguments>
-<arg>name=loc</arg>
-</arguments>
-<status status="PASS" starttime="20180723 20:11:03.187" endtime="20180723 20:11:03.201"></status>
-</kw>
-<kw name="Select From List By Value" library="SeleniumLibrary">
-<doc>Selects options from selection list ``locator`` by ``values``.</doc>
-<arguments>
-<arg>xpath=//*[@id="subcontent"]/div[2]/div/form/div[3]/div[1]/select</arg>
-<arg>PAL</arg>
-</arguments>
-<msg timestamp="20180723 20:11:03.202" level="INFO">Selecting options from selection list 'xpath=//*[@id="subcontent"]/div[2]/div/form/div[3]/div[1]/select' by value PAL.</msg>
-<status status="PASS" starttime="20180723 20:11:03.202" endtime="20180723 20:11:03.284"></status>
-</kw>
-<kw name="Click Button" library="SeleniumLibrary">
-<doc>Clicks button identified by ``locator``.</doc>
-<arguments>
-<arg>xpath=//*[@id="subcontent"]/div[2]/div/form/div[5]/button</arg>
-</arguments>
-<msg timestamp="20180723 20:11:03.284" level="INFO">Clicking button 'xpath=//*[@id="subcontent"]/div[2]/div/form/div[5]/button'.</msg>
-<status status="PASS" starttime="20180723 20:11:03.284" endtime="20180723 20:11:03.320"></status>
-</kw>
-<kw name="Alert Should Be Present" library="SeleniumLibrary">
-<doc>Verifies that an alert is present and, by default, accepts it.</doc>
-<arguments>
-<arg>SUCESSFULLY UPDATED THE EMPLOYEE DETAILS</arg>
-</arguments>
-<kw name="Capture Page Screenshot" library="SeleniumLibrary">
-<doc>Takes screenshot of the current page and embeds it into log file.</doc>
-<msg timestamp="20180723 20:11:08.620" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-14.png"&gt;&lt;img src="selenium-screenshot-14.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20180723 20:11:08.358" endtime="20180723 20:11:08.620"></status>
-</kw>
-<msg timestamp="20180723 20:11:08.653" level="FAIL">Alert not found in 5 seconds.</msg>
-<status status="FAIL" starttime="20180723 20:11:03.320" endtime="20180723 20:11:08.653"></status>
-</kw>
-<status status="FAIL" starttime="20180723 20:11:03.112" endtime="20180723 20:11:08.653"></status>
+<status status="PASS" starttime="20180725 18:56:19.900" endtime="20180725 18:56:29.795"></status>
 </kw>
 <kw name="End Test" library="common" type="teardown">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20180723 20:11:08.654" endtime="20180723 20:11:10.974"></status>
+<status status="PASS" starttime="20180725 18:56:29.796" endtime="20180725 18:56:32.056"></status>
 </kw>
-<status status="PASS" starttime="20180723 20:11:08.653" endtime="20180723 20:11:10.974"></status>
+<status status="PASS" starttime="20180725 18:56:29.796" endtime="20180725 18:56:32.056"></status>
 </kw>
-<status status="FAIL" starttime="20180723 20:10:04.671" endtime="20180723 20:11:10.975" critical="yes">Alert not found in 5 seconds.</status>
+<status status="PASS" starttime="20180725 18:55:40.336" endtime="20180725 18:56:32.057" critical="yes"></status>
 </test>
-<status status="FAIL" starttime="20180723 20:10:03.125" endtime="20180723 20:11:10.977"></status>
+<status status="PASS" starttime="20180725 18:55:40.227" endtime="20180725 18:56:32.061"></status>
 </suite>
 <statistics>
 <total>
-<stat pass="0" fail="1">Critical Tests</stat>
-<stat pass="0" fail="1">All Tests</stat>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="0" fail="1" id="s1" name="Test">Test</stat>
+<stat pass="1" fail="0" id="s1" name="Test">Test</stat>
 </suite>
 </statistics>
 <errors>
