@@ -108,13 +108,35 @@ Cash Finance
     cashfin.Giving Only Phonenumber And Amount
     cashfin.Giving only Phonenumber And Rate Ofinterest
     cashfin.Giving All
+    cashfin.Giving Num3600
+    cashfin.Giving num3100
+    cashfin.Giving Num3020
+    cashfin.Giving NUM3200
 
 Buy Back Items
     login.valid username and password
     buyback.click buybackitems
-    buyback.no entries
-    buyback.invalid cutomer entry
-    buyback.valid entry
+    buyback.Clicking Button Purchase
+    buyback.Giving the Customet id wrong P
+    buyback.Giving the Customet id Right P
+    buyback.Clicking The Button Working p
+    buyback.Giving The type Rf p
+    buyback.Giving The type Tv p
+    buyback.Giving The type Ac p
+    buyback.Giving The type Wm p
+    buyback.Giving the Model Name p
+    buyback.Giving THE Amount p
+    buyback.Giving THe Remarks p
+    buyback.Giving Data For Not Workinf Button p
+    buyback.Clicking The Button Sell
+    buyback.Giving the Customet id wrong s
+    buyback.Giving the Customet id Right s
+    buyback.Giving The Sereal Number in 1S
+    buyback.Giving The Sereal Number in 2S
+    buyback.Clicking Button Not Working
+    buyback.Giving amount In S
+    buyback.Giving The Working Condition in S
+    buyback.Clicking The Button Working in S
 
 Employee
     login.valid username and password

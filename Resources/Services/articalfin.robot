@@ -205,7 +205,7 @@ Giving Emi Seheme Button Month And Giving Emis
     focus  xpath=//*[@id="inputFirstName"]
     click button  xpath=//*[@id="subcontent21"]/div/form/div[11]/button
 
-    alert should be present  PURCHASE COMPLETED.
+    alert should be present
     focus  xpath=//*[@id="inputFirstName"]
 Giving Emi Seheme Button Amount And Installment aumout
     input text  xpath=//*[@id="inputFirstName"]  0123456789
@@ -227,7 +227,7 @@ Giving Emi Seheme Button Amount And Installment aumout
     focus  xpath=//*[@id="inputFirstName"]
     click button  xpath=//*[@id="subcontent21"]/div/form/div[11]/button
     Sleep  3s
-    alert should be present  PURCHASE COMPLETED.
+    alert should be present
     focus  xpath=//*[@id="inputFirstName"]
 Giving Emi Seheme Button Month And Giving Emis Given alerdy
     input text  xpath=//*[@id="inputFirstName"]  0123456789
@@ -270,7 +270,7 @@ Giving The Type As Ac
     focus  name=submit
     click button  xpath=//*[@id="subcontent21"]/div/form/div[11]/button
     Sleep  3s
-    alert should be present  PURCHASE COMPLETED.
+    alert should be present
 
 Giving The Type As Tv
     input text  xpath=//*[@id="inputFirstName"]  0123456789
@@ -333,7 +333,7 @@ Giving The Type As Refrigirator
     focus  name=submit
     click button  xpath=//*[@id="subcontent21"]/div/form/div[11]/button
     Sleep  3s
-    alert should be present  PRODUCT ALREADY FINANCED.
+    alert should be present
     focus  xpath=//*[@id="inputFirstName"]
 
     close browser

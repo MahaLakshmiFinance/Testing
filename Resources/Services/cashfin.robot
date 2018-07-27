@@ -63,6 +63,35 @@ Giving All
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[6]/button
     Sleep  3s
     alert should be present
-
-
-
+Giving Num3600
+    input text  xpath=//*[@id="inputFirstName"]  ${customer}
+    input text  xpath=//*[@id="inputUsername"]  3600
+    input text  xpath=//*[@id="inputNewPassword"]  1
+    input text  name=refno  457
+    click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[6]/button
+    Sleep  3s
+    alert should be present
+Giving num3100
+    input text  xpath=//*[@id="inputFirstName"]  ${customer}
+    input text  xpath=//*[@id="inputUsername"]  3100
+    input text  xpath=//*[@id="inputNewPassword"]  1
+    input text  name=refno  456
+    click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[6]/button
+    Sleep  3s
+    alert should be present
+Giving Num3020
+    input text  xpath=//*[@id="inputFirstName"]  ${customer}
+    input text  xpath=//*[@id="inputUsername"]  3020
+    input text  xpath=//*[@id="inputNewPassword"]  1
+    input text  name=refno  458
+    click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[6]/button
+    Sleep  3s
+    alert should be present
+Giving NUM3200
+    input text  xpath=//*[@id="inputFirstName"]  ${customer}
+    input text  xpath=//*[@id="inputUsername"]  3200
+    input text  xpath=//*[@id="inputNewPassword"]  1
+    input text  name=refno  451
+    click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[6]/button
+    Sleep  3s
+    alert should be present

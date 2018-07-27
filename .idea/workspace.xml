@@ -5,31 +5,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/Services/access.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Services/access.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/Services/articalfin.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Services/articalfin.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Services/buyback.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Services/buyback.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/Services/cashfin.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Services/cashfin.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/Services/employee.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Services/employee.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Services/users.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Services/users.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/login.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/login.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/launchin.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Services/trans.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Services/trans.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/mlf.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/mlf.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/res/log.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/res/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/res/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/selenium-screenshot-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/selenium-screenshot-10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/selenium-screenshot-11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/selenium-screenshot-12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/selenium-screenshot-13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/selenium-screenshot-14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/selenium-screenshot-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/selenium-screenshot-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/selenium-screenshot-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/selenium-screenshot-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/selenium-screenshot-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/selenium-screenshot-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/selenium-screenshot-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/selenium-screenshot-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/results/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/results/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/results/report.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,12 +23,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="mlf.robot" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/mlf.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="132" column="13" lean-forward="true" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="39" />
+            <state relative-caret-position="238">
+              <caret line="154" column="34" lean-forward="true" selection-start-line="154" selection-start-column="34" selection-end-line="154" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#544#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,8 +39,8 @@
       <file leaf-file-name="employee.robot" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Resources/Services/employee.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="114" column="39" selection-start-line="114" selection-start-column="39" selection-end-line="114" selection-end-column="39" />
+            <state relative-caret-position="183">
+              <caret line="114" column="65" selection-start-line="114" selection-start-column="65" selection-end-line="114" selection-end-column="65" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -64,8 +51,8 @@
       <file leaf-file-name="articalfin.robot" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Resources/Services/articalfin.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="229" column="48" selection-start-line="229" selection-start-column="48" selection-end-line="229" selection-end-column="48" />
+            <state relative-caret-position="-1874">
+              <caret line="207" column="27" selection-start-line="207" selection-start-column="27" selection-end-line="207" selection-end-column="27" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -73,20 +60,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cashfin.robot" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resources/Services/cashfin.robot">
+      <file leaf-file-name="buy.robot" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Selenium Testing/MLF-Test/Resources/Services/buy.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="58" column="60" selection-start-line="58" selection-start-column="60" selection-end-line="58" selection-end-column="60" />
+            <state>
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.robot" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resources/login.robot">
+      <file leaf-file-name="test.robot" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/test.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="476">
+              <caret line="44" selection-start-line="21" selection-start-column="4" selection-end-line="44" />
+              <folding>
+                <element signature="e#0#557#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buyback.robot" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources/Services/buyback.robot">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trans.robot" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources/Services/trans.robot">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -98,21 +111,26 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find />
+      <find>IVALID EMPLOYEE ID.</find>
       <find>tk</find>
       <find>acc</find>
       <find>accessesssories</find>
       <find>acc.</find>
       <find>af</find>
-      <find />
+      <find>Amount in</find>
+      <find>8317681823</find>
+      <find>Giving Emi Seheme Button Amount And Installment aumout</find>
+      <find>Giving The Emploe Id Wrong</find>
+      <find>bu</find>
     </findStrings>
     <replaceStrings>
-      <replace />
+      <replace>INVALID EMPLOYEE ID</replace>
       <replace>trans</replace>
       <replace>access</replace>
       <replace>access.</replace>
-      <replace />
+      <replace>Article Finance</replace>
       <replace>accessories</replace>
+      <replace>${customer}</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -121,23 +139,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Resources/Services/buyback.robot" />
         <option value="$USER_HOME$/Documents/mlf/acc.robot" />
         <option value="$USER_HOME$/Documents/mlf/tr.robot" />
         <option value="$USER_HOME$/Documents/mlf/neeraj.robot" />
-        <option value="$PROJECT_DIR$/Tests/mlf.robot" />
         <option value="$PROJECT_DIR$/Resources/login.robot" />
-        <option value="$PROJECT_DIR$/Resources/Services/access.robot" />
-        <option value="$PROJECT_DIR$/Resources/Services/trans.robot" />
         <option value="$PROJECT_DIR$/Tests/test.robot" />
         <option value="$PROJECT_DIR$/Resources/Services/users.robot" />
         <option value="$PROJECT_DIR$/Resources/Services/cashfin.robot" />
+        <option value="$PROJECT_DIR$/Resources/Services/access.robot" />
+        <option value="$PROJECT_DIR$/Resources/Services/trans.robot" />
+        <option value="$PROJECT_DIR$/Resources/Services/buyback.robot" />
+        <option value="$PROJECT_DIR$/Tests/mlf.robot" />
         <option value="$PROJECT_DIR$/Resources/Services/articalfin.robot" />
         <option value="$PROJECT_DIR$/Resources/Services/employee.robot" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="713" />
     <option name="width" value="734" />
     <option name="height" value="867" />
@@ -214,16 +232,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496474" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15444288" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3467742" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.35080644" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -234,11 +251,178 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15444288" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.35080644" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Tests/mlf.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1989">
+          <caret line="131" column="38" lean-forward="true" selection-start-line="131" selection-start-column="38" selection-end-line="131" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#544#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/test.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="44" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="44" />
+          <folding>
+            <element signature="e#0#557#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Services/buyback.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Services/trans.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" selection-start-line="15" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/mlf.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="e#0#544#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Services/trans.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" selection-start-line="15" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Services/buyback.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/mlf.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="104" column="36" lean-forward="true" selection-start-line="104" selection-start-column="36" selection-end-line="104" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#544#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Services/buyback.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Services/cashfin.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Services/trans.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/mlf.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2856">
+          <caret line="182" column="37" selection-start-line="182" selection-start-column="37" selection-end-line="182" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#544#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Services/employee.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1921">
+          <caret line="114" column="39" selection-start-line="114" selection-start-column="39" selection-end-line="114" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Services/articalfin.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3876">
+          <caret line="229" column="48" selection-start-line="229" selection-start-column="48" selection-end-line="229" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Services/cashfin.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="58" column="60" selection-start-line="58" selection-start-column="60" selection-end-line="58" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/login.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/test.robot">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -250,9 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3009">
           <caret line="178" column="52" lean-forward="true" selection-start-line="178" selection-start-column="52" selection-end-line="178" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -299,17 +480,8 @@
     </entry>
     <entry file="file://C:/Selenium Testing/MLF-Test/Tests/TestLogins.robot" />
     <entry file="file://C:/Selenium Testing/MLF-Test/Tests/users.robot" />
-    <entry file="file://C:/Selenium Testing/MLF-Test/Tests/login.robot">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://C:/Selenium Testing/MLF-Test/Tests/login.robot" />
     <entry file="file:////DESKTOP-M69JKBL/Users/N~K~V~R/Documents/res/tk.robot" />
-    <entry file="file://$PROJECT_DIR$/Resources/Services/buyback.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Documents/mlf/tk.robot">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -339,26 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Services/access.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2279">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Services/trans.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/test.robot">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -370,15 +522,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="183" selection-start-line="183" selection-end-line="183" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Resources/login.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="51">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -388,15 +537,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Resources/Services/cashfin.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="58" column="60" selection-start-line="58" selection-start-column="60" selection-end-line="58" selection-end-column="60" />
+        <state relative-caret-position="1479">
+          <caret line="89" selection-start-line="89" selection-end-line="89" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Services/access.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="161" column="57" lean-forward="true" selection-start-line="161" selection-start-column="57" selection-end-line="161" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/test.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="44" selection-start-line="21" selection-start-column="4" selection-end-line="44" />
+          <folding>
+            <element signature="e#0#557#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Selenium Testing/MLF-Test/Resources/Services/buy.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Services/trans.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Services/buyback.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/buy.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Resources/Services/articalfin.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="229" column="48" selection-start-line="229" selection-start-column="48" selection-end-line="229" selection-end-column="48" />
+        <state relative-caret-position="-1874">
+          <caret line="207" column="27" selection-start-line="207" selection-start-column="27" selection-end-line="207" selection-end-column="27" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -405,15 +610,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/mlf.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="132" column="13" lean-forward="true" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="39" />
+        <state relative-caret-position="238">
+          <caret line="154" column="34" lean-forward="true" selection-start-line="154" selection-start-column="34" selection-end-line="154" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#544#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Resources/Services/employee.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="114" column="39" selection-start-line="114" selection-start-column="39" selection-end-line="114" selection-end-column="39" />
+        <state relative-caret-position="183">
+          <caret line="114" column="65" selection-start-line="114" selection-start-column="65" selection-end-line="114" selection-end-column="65" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

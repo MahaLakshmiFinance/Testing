@@ -11,10 +11,10 @@ ${reference number Cash 2} =  201800003
 ${reference number Cash 3} =  201800004
 ${reference number Cash 4} =  201800005
 ${penelity} =  50
-${Reference tra} =  3
+${Reference tra} =  334343
 ${resept no tra} =  1234
-${Reference tra 1}=  34153
-${custemae id tra} =  8317681823
+${Reference tra 1}=  3343200
+${custemae id tra} =  0123456789
 
 ${penelity tra} =  75
 

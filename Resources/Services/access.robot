@@ -5,7 +5,6 @@ Library  SeleniumLibrary
 *** Keywords ***
 
 Clicking On The Link Accessories
-    sleep 5s
     click link  xpath=//*[@id="link6"]
     sleep  4s
 Button Purchase
@@ -154,6 +153,7 @@ Giving THe Total Amount In THe Accessories
     sleep  2s
     focus  xpath=//*[@id="inputFirstName"]
     select from list by value  xpath=//*[@id="serial"]  201800002
+    sleep  1s
     focus  xpath=//*[@id="inputFirstName"]
     input text  name=date  2019-05-12
     input text  name=cost  6752
