@@ -143,7 +143,6 @@ Giving THe Total Amount In THe Accessories Wrong
     input text  name=cost   6752
     sleep  9s
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[8]/button
-    focus  xpath=//*[@id="inputFirstName"]
     alert should be present  SUCESSFULLY SOLD THE PRODUCT
 Giving THe Total Amount In THe Accessories
     click element  xpath=//*[@id="subcontent"]/div[2]/div/form/div[1]/div[1]/div[2]/label/span

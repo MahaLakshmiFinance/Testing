@@ -1,4 +1,5 @@
 *** Settings ***
+
 Resource  ../Resources/common.robot
 Resource  ../Resources/login.robot
 Resource  ../Resources/Services/users.robot
@@ -10,7 +11,6 @@ Resource  ../Resources/Services/access.robot
 Resource  ../Resources/Services/trans.robot
 Resource  ../Resources/Services/chgpswd.robot
 Resource  ../Resources/Services/signout.robot
-
 Test Setup  Begin Test
 Test Teardown  End Test
 
@@ -152,20 +152,20 @@ Employee
     employee.Giving Services As Accessories
     employee.Giving Services As Transactions
     employee.Clicking The Expencedetails
-    employee.Giving The Emploe Id Wrong
-    employee.Giving The Emploe Id
-    employee.Giving The Coustemer Id
-    employee.Giving The Coustemer Id Wrong
-    employee.Giving The Expence Wrong
-    employee.Giving The Expence
-    employee.Giving The Collected Wrong
-    employee.Giving The Collected
-    employee.Giving The Remarks Words And Numbers
-    employee.Giving the Remarks Only Letters
+    employee.Giving The Emploe Id Wrong E
+    employee.Giving The Emploe Id E
+    employee.Giving The Coustemer Id E
+    employee.Giving The Coustemer Id Wrong E
+    employee.Giving The Expence Wrong E
+    employee.Giving The Expence E
+    employee.Giving The Collected Wrong E
+    employee.Giving The Collected E
+    employee.Giving The Remarks Words And Numbers E
+    employee.Giving the Remarks Only Letters E
     employee.Clicking On The Link Salarydetails
-    employee.Giving The Employe Id In The Salarydetails
-    employee.Updating athe SAlary Of Empoye In The Salarydetails Wrong
-    employee.Updating athe SAlary Of Empoye In The Salarydetails
+    employee.Giving The Employe Id In The Salarydetails S
+    employee.Updating athe SAlary Of Empoye In The Salarydetails Wrong S
+    employee.Updating athe SAlary Of Empoye In The Salarydetails S
 
 Accessories
     login.valid username and password

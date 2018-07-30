@@ -111,22 +111,22 @@ Giving Services As Transactions
 Clicking The Expencedetails
     click element  xpath=//*[@id="content"]/div/div/div[1]/nav/ul/li[2]/a
 
-Giving The Emploe Id Wrong
+Giving The Emploe Id Wrong E
     focus  xpath=//*[@id="content"]/div/div/div[1]/nav/ul/li[2]/a
-    input text  name=emp_id  9959454578
+    input text  xpath=//*[@id="subcontent"]/div[2]/div/form/div[1]/div/input  9959454578
     focus  name=cstmr_id
     sleep  5s
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[6]/button
     sleep  5s
     alert should be present  INVALID EMPLOYEE ID
 
-Giving The Emploe Id
+Giving The Emploe Id E
     input text  name=emp_id  ${employee}
     focus  name=cstmr_id
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[6]/button
     alert should be present  PLEASE ENTER CUSTOMER ID.
 
-Giving The Coustemer Id
+Giving The Coustemer Id E
     input text  name=emp_id  ${employee}
     focus  name=cstmr_id
     input text  name=cstmr_id  ${customer}
@@ -136,14 +136,14 @@ Giving The Coustemer Id
     sleep  6s
     alert should be present  PLEASE ENTER EXPENSE AMOUNT.
 
-Giving The Coustemer Id Wrong
+Giving The Coustemer Id Wrong E
     input text  name=emp_id  ${employee}
     focus  name=cstmr_id
     input text  name=cstmr_id  831768hghgh5
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[6]/button
     alert should be present  PLEASE ENTER EXPENSE AMOUNT.
 
-Giving The Expence Wrong
+Giving The Expence Wrong E
     input text  name=emp_id  ${employee}
     focus  name=cstmr_id
     input text  name=cstmr_id  ${customer}
@@ -151,7 +151,7 @@ Giving The Expence Wrong
    click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[6]/button
    focus  name=expense
 
-Giving The Expence
+Giving The Expence E
     input text  name=emp_id  ${employee}
     focus  name=cstmr_id
     input text  name=cstmr_id  ${customer}
@@ -159,7 +159,7 @@ Giving The Expence
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[6]/button
     alert should be present  PLEASE ENTER COLLECTED AMOUNT.
 
-Giving The Collected Wrong
+Giving The Collected Wrong E
     input text  name=emp_id  ${employee}
     focus  name=cstmr_id
     input text  name=cstmr_id  8317681873
@@ -168,7 +168,7 @@ Giving The Collected Wrong
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[6]/button
     focus  name=expense
 
-Giving The Collected
+Giving The Collected E
     input text  name=emp_id  ${employee}
     focus  name=cstmr_id
     input text  name=cstmr_id  ${customer}
@@ -177,7 +177,7 @@ Giving The Collected
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[6]/button
     alert should be present  PLEASE ENTER REMARKS
 
-Giving The Remarks Words And Numbers
+Giving The Remarks Words And Numbers E
     input text  name=emp_id  ${employee}
     focus  name=cstmr_id
     input text  name=cstmr_id  ${customer}
@@ -187,7 +187,7 @@ Giving The Remarks Words And Numbers
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[6]/button
     alert should be present  SUCESSFULLY UPDATED THE EXPENSE DETAILS
 
-Giving the Remarks Only Letters
+Giving the Remarks Only Letters E
     input text  name=emp_id  ${employee}
     focus  name=cstmr_id
     input text  name=cstmr_id  ${customer}
@@ -199,31 +199,32 @@ Giving the Remarks Only Letters
 
 Clicking On The Link Salarydetails
     click element  xpath=//*[@id="content"]/div/div/div[1]/nav/ul/li[3]/a
+    sleep  5s
+    wait until page contains  Update Salary
 
-Giving The Employe Id In The Salarydetails Wrong
-    input text  name=emp_id   9959723841
+Giving The Employe Id In The Salarydetails Wrong S
+    input text  xpath=//*[@id="inputFirstName"]  9959723841
     focus  xpath=//*[@id="subcontent"]/div[2]/div/form/div[2]/div[4]/input
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[3]/button
     alert should be present  INVALID EMPLOYEE ID
     sleep  9s
 
-Giving The Employe Id In The Salarydetails
-    input text  name=emp_id   ${employee}
+Giving The Employe Id In The Salarydetails S
+    input text  xpath=//*[@id="inputFirstName"]   ${employee}
     focus  xpath=//*[@id="subcontent"]/div[2]/div/form/div[2]/div[4]/input
     sleep  5s
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[3]/button
     sleep  5s
     alert should be present  PLEASE ENTER SALARY AMOUNT
 
-Updating athe SAlary Of Empoye In The Salarydetails Wrong
-    input text  name=emp_id   ${employee}
+Updating athe SAlary Of Empoye In The Salarydetails Wrong S
+    input text  xpath=//*[@id="inputFirstName"]  ${employee}
     input text  name=usal  43e
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[3]/button
     focus  xpath=//*[@id="subcontent"]/div[2]/div/form/div[2]/div[4]/input
 
-Updating athe SAlary Of Empoye In The Salarydetails
-    input text  name=emp_id   ${employee}
+Updating athe SAlary Of Empoye In The Salarydetails S
+    input text  xpath=//*[@id="inputFirstName"]   ${employee}
     input text  name=usal  43
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[3]/button
     alert should be present  SUCESSFULLY UPDATED THE SALARY DETAILS
-    close all browsers

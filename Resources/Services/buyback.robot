@@ -97,23 +97,28 @@ Clicking The Button Sell
 Giving the Customet id wrong s
     input text  xpath=//*[@id="inputFirstName"]  14khhh2
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[9]/button
+    sleep  2s
     alert should be present  INVALID CUSTOMER ID.
 Giving the Customet id Right s
     input text  xpath=//*[@id="inputFirstName"]  ${CUstomer Id}
     focus  xpath=//*[@id="subcontent"]/div[2]/div/form/div[4]/div[2]/div[1]/label/span
+    sleep  5s
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[9]/button
-    alert should be present
+    sleep  2s
+    handle alert
 Giving The Sereal Number in 1S
     input text  xpath=//*[@id="inputFirstName"]  ${CUstomer Id}
     focus  xpath=//*[@id="subcontent"]/div[2]/div/form/div[4]/div[2]/div[1]/label/span
     select from list by value  xpath=//*[@id="serial"]  201800001
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[9]/button
+    sleep  2s
     focus  xpath=//*[@id="subcontent"]/div[2]/div/form/div[6]/div[2]/input
 Giving The Sereal Number in 2S
     input text  xpath=//*[@id="inputFirstName"]  ${CUstomer Id}
     focus  xpath=//*[@id="subcontent"]/div[2]/div/form/div[4]/div[2]/div[1]/label/span
     select from list by value  xpath=//*[@id="serial"]  201800002
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[9]/button
+    sleep  2s
     focus  xpath=//*[@id="subcontent"]/div[2]/div/form/div[6]/div[2]/input
 Clicking Button Not Working
     input text  xpath=//*[@id="inputFirstName"]  ${CUstomer Id}
@@ -121,6 +126,7 @@ Clicking Button Not Working
     select from list by value  xpath=//*[@id="serial"]  201800002
     click element  xpath=//*[@id="subcontent"]/div[2]/div/form/div[4]/div[2]/div[2]/label/span
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[9]/button
+    sleep  2s
     focus  xpath=//*[@id="subcontent"]/div[2]/div/form/div[6]/div[2]/input
 Giving amount In S
     input text  xpath=//*[@id="inputFirstName"]  ${CUstomer Id}
@@ -129,6 +135,7 @@ Giving amount In S
     click element  xpath=//*[@id="subcontent"]/div[2]/div/form/div[4]/div[2]/div[2]/label/span
     input text  xpath=//*[@id="subcontent"]/div[2]/div/form/div[6]/div[2]/input  14975
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[9]/button
+    sleep  2s
     alert should be present  PLEASE DESCRIBE THE PRODUCT CONDITION.
 Giving The Working Condition in S
     input text  xpath=//*[@id="inputFirstName"]  ${CUstomer Id}
@@ -138,6 +145,7 @@ Giving The Working Condition in S
     input text  xpath=//*[@id="subcontent"]/div[2]/div/form/div[6]/div[2]/input  14975
     input text  xpath=//*[@id="inputNewPassword"]  not ok
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[9]/button
+    sleep  2s
     alert should be present  SUCESSFULLY SOLD THE PRODUCT
 Clicking The Button Working in S
     click element  xpath=//*[@id="subcontent"]/div[2]/div/form/div[1]/div[1]/div[2]/label/span
@@ -149,4 +157,5 @@ Clicking The Button Working in S
     input text  xpath=//*[@id="subcontent"]/div[2]/div/form/div[6]/div[2]/input  14975
     input text  xpath=//*[@id="inputNewPassword"]  not ok
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[9]/button
+    sleep  2s
     alert should be present  SUCESSFULLY SOLD THE PRODUCT

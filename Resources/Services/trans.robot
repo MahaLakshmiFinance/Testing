@@ -6,6 +6,7 @@ Library  SeleniumLibrary
 ${coustemer id} =  0123456789
 ${reference number Cash} =  201800001
 ${due date} =  1
+${due date 2} =  2
 ${reference number Cash 1} =  201800002
 ${reference number Cash 2} =  201800003
 ${reference number Cash 3} =  201800004
@@ -114,7 +115,7 @@ Giving Amount Paid IN Artical Button
     sleep  2s
     input text  xpath=//*[@id="subcontent"]/div[2]/div/form/div[6]/div[2]/input  ${resept no tra}
     # Due Date
-    select from list by value  name=due_num  ${due date}
+    select from list by value  name=due_num  ${due date 2}
     #Amount Paid
     input text  name=amount  8788
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[11]/button
@@ -134,7 +135,7 @@ Clicking The Button Penality IN Artical Button
     sleep  2s
     input text  xpath=//*[@id="subcontent"]/div[2]/div/form/div[6]/div[2]/input  ${resept no tra}
     # Due Date
-    select from list by value  name=due_num  ${due date}
+    select from list by value  name=due_num  2
     #Amount Paid
     input text  name=amount  8788
     #penalati Button
@@ -161,7 +162,7 @@ Giving The Penality Amount Paid IN Artical Button
     sleep  2s
     input text  xpath=//*[@id="subcontent"]/div[2]/div/form/div[6]/div[2]/input  ${resept no tra}
     # Due Date
-    select from list by value  name=due_num  ${due date}
+    select from list by value  name=due_num  2
     #Amount Paid
     input text  name=amount  8788
     #penalati Button

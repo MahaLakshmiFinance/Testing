@@ -8,7 +8,7 @@ valid username and password
     input text      xpath=//*[@id="homebody"]/div[2]/div/form/div[2]/div/input      mlf@123
     #sleep   2s
     click element   xpath=//*[@id="homebody"]/div[2]/div/form/div[3]/button
-    sleep  5s
+    sleep  9s
     wait until page contains  Hello, mlfadmin
 
 
