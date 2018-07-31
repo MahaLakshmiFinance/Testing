@@ -91,6 +91,7 @@ Giving Data For Not Workinf Button p
     input text  xpath=//*[@id="inputNewPassword"]  ok
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[9]/button
     alert should be present  PURCHASE COMPLETED.
+    sleep  9s
 Clicking The Button Sell
     click element  xpath=//*[@id="subcontent"]/div[2]/div/form/div[1]/div[1]/div[2]/label/span
     focus  xpath=//*[@id="inputFirstName"]
@@ -101,28 +102,28 @@ Giving the Customet id wrong s
     alert should be present  INVALID CUSTOMER ID.
 Giving the Customet id Right s
     input text  xpath=//*[@id="inputFirstName"]  ${CUstomer Id}
-    focus  xpath=//*[@id="subcontent"]/div[2]/div/form/div[4]/div[2]/div[1]/label/span
+    focus  xpath=//*[@id="subcontent"]/div[2]/div/form/div[3]/div[1]/input
     sleep  5s
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[9]/button
     sleep  2s
     handle alert
 Giving The Sereal Number in 1S
     input text  xpath=//*[@id="inputFirstName"]  ${CUstomer Id}
-    focus  xpath=//*[@id="subcontent"]/div[2]/div/form/div[4]/div[2]/div[1]/label/span
+    focus  xpath=//*[@id="subcontent"]/div[2]/div/form/div[3]/div[1]/input
     select from list by value  xpath=//*[@id="serial"]  201800001
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[9]/button
     sleep  2s
     focus  xpath=//*[@id="subcontent"]/div[2]/div/form/div[6]/div[2]/input
 Giving The Sereal Number in 2S
     input text  xpath=//*[@id="inputFirstName"]  ${CUstomer Id}
-    focus  xpath=//*[@id="subcontent"]/div[2]/div/form/div[4]/div[2]/div[1]/label/span
+    focus  xpath=//*[@id="subcontent"]/div[2]/div/form/div[3]/div[1]/input
     select from list by value  xpath=//*[@id="serial"]  201800002
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[9]/button
     sleep  2s
     focus  xpath=//*[@id="subcontent"]/div[2]/div/form/div[6]/div[2]/input
 Clicking Button Not Working
     input text  xpath=//*[@id="inputFirstName"]  ${CUstomer Id}
-    focus  xpath=//*[@id="subcontent"]/div[2]/div/form/div[4]/div[2]/div[1]/label/span
+    focus  xpath=//*[@id="subcontent"]/div[2]/div/form/div[3]/div[1]/input
     select from list by value  xpath=//*[@id="serial"]  201800002
     click element  xpath=//*[@id="subcontent"]/div[2]/div/form/div[4]/div[2]/div[2]/label/span
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[9]/button
@@ -130,7 +131,7 @@ Clicking Button Not Working
     focus  xpath=//*[@id="subcontent"]/div[2]/div/form/div[6]/div[2]/input
 Giving amount In S
     input text  xpath=//*[@id="inputFirstName"]  ${CUstomer Id}
-    focus  xpath=//*[@id="subcontent"]/div[2]/div/form/div[4]/div[2]/div[1]/label/span
+    focus  xpath=//*[@id="subcontent"]/div[2]/div/form/div[3]/div[1]/input
     select from list by value  xpath=//*[@id="serial"]  201800002
     click element  xpath=//*[@id="subcontent"]/div[2]/div/form/div[4]/div[2]/div[2]/label/span
     input text  xpath=//*[@id="subcontent"]/div[2]/div/form/div[6]/div[2]/input  14975
@@ -139,7 +140,7 @@ Giving amount In S
     alert should be present  PLEASE DESCRIBE THE PRODUCT CONDITION.
 Giving The Working Condition in S
     input text  xpath=//*[@id="inputFirstName"]  ${CUstomer Id}
-    focus  xpath=//*[@id="subcontent"]/div[2]/div/form/div[4]/div[2]/div[1]/label/span
+    focus  xpath=//*[@id="subcontent"]/div[2]/div/form/div[3]/div[1]/input
     select from list by value  xpath=//*[@id="serial"]  201800002
     click element  xpath=//*[@id="subcontent"]/div[2]/div/form/div[4]/div[2]/div[2]/label/span
     input text  xpath=//*[@id="subcontent"]/div[2]/div/form/div[6]/div[2]/input  14975
@@ -149,7 +150,7 @@ Giving The Working Condition in S
     alert should be present  SUCESSFULLY SOLD THE PRODUCT
 Clicking The Button Working in S
     click element  xpath=//*[@id="subcontent"]/div[2]/div/form/div[1]/div[1]/div[2]/label/span
-    focus  xpath=//*[@id="inputFirstName"]
+    focus  xpath=//*[@id="subcontent"]/div[2]/div/form/div[3]/div[1]/input
     input text  xpath=//*[@id="inputFirstName"]  ${CUstomer Id}
     focus  xpath=//*[@id="subcontent"]/div[2]/div/form/div[4]/div[2]/div[1]/label/span
     select from list by value  xpath=//*[@id="serial"]  201800001

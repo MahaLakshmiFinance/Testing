@@ -29,6 +29,7 @@ Giving Coustemer ID wrong IN Artical Button
     input text  name=username  55664546545
     sleep  2s
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[11]/button
+    sleep  1s
     alert should be present  PLEASE CHECK USER ID.
 Giving The Correct COstumer Id IN Artical Button
     sleep  1s
@@ -37,7 +38,7 @@ Giving The Correct COstumer Id IN Artical Button
     focus  xpath=//*[@id="subcontent"]/div[2]/div/form/div[2]/div[3]/select
     sleep  2s
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[11]/button
-    Sleep  2s
+    Sleep  1s
     alert should be present  PLEASE SELECT FINANCE TYPE.
 Clicking Button Artical IN Artical Button
     sleep  1s
@@ -50,7 +51,7 @@ Clicking Button Artical IN Artical Button
     sleep  2s
     Focus  xpath=//*[@id="subcontent"]/div[2]/div/form/div[2]/div[1]/input
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[11]/button
-    sleep  2s
+    sleep  1s
    alert should be present  PLEASE SELECT REFERNECE NUMBER.
 
 Giving The Reference Number IN Artical Button
@@ -65,6 +66,7 @@ Giving The Reference Number IN Artical Button
     #reference Number
     select from list by value  xpath=//*[@id="subcontent"]/div[2]/div/form/div[2]/div[3]/select  ${Reference tra}
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[11]/button
+    sleep  1s
     alert should be present  PLEASE ENTER THE RECEIPT ID.
 Giving Resept id IN Artical Button
     sleep  1s
@@ -81,6 +83,7 @@ Giving Resept id IN Artical Button
     sleep  2s
     input text  xpath=//*[@id="subcontent"]/div[2]/div/form/div[6]/div[2]/input  ${resept no tra}
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[11]/button
+    sleep  1s
     alert should be present  PLEASE SELECT THE DUE DATE.
 Giving The Due Date IN Artical Button
     sleep  1s
@@ -278,6 +281,7 @@ Paying Penality 50 In CFButton
     select from list by value  xpath=//*[@id="penality_group"]/div[1]/select  ${penelity}
     #paying Penality
     input text  name=penality  ${penelity}
+    sleep  1s
     #clicking button
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[11]/button
     alert should be present
@@ -301,4 +305,5 @@ Paying Penality less than 50 In CFButton
     input text  name=penality  45
     #clicking button
     click button  xpath=//*[@id="subcontent"]/div[2]/div/form/div[11]/button
+    sleep  5s
     alert should be present
